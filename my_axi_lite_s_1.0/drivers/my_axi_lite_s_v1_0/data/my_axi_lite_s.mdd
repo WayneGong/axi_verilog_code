@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER my_axi_lite_s
+	OPTION supported_peripherals = (my_axi_lite_s);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = my_axi_lite_s;
+END DRIVER
